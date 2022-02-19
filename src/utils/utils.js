@@ -1,5 +1,21 @@
+import fbLogo from '../images/fb.webp';
+import redditLogo from '../images/reddit.webp';
+import twitterLogo from '../images/twitter.webp';
+
+const socialLogos = {
+  facebook_url: fbLogo,
+  reddit_url: redditLogo,
+  twitter_handle: twitterLogo,
+};
+
+const infoHuman = {
+  trust_score_rank: 'Trust rank',
+  year_established: 'Year established',
+  country: 'Country',
+};
+
 const apiConfig = {
   baseUrl: 'https://api.coingecko.com/api/v3/',
   appJSONType: 'application/json',
 };
-export default apiConfig;
+export { apiConfig, socialLogos, infoHuman };

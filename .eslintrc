@@ -2,7 +2,8 @@
     "extends": ["airbnb", "prettier"],
     "plugins": ["prettier", "react"],
     "rules": {
-      "prettier/prettier": ["error"]
+      "prettier/prettier": ["error"],
+      "react/prop-types": "off"
     },
     "env": {
       "es6": true,
