@@ -54,7 +54,7 @@ function SingleCard({ exchange }) {
             )
         )}
       </ul>
-      <button type='button' onClick={() => navigate(-1)}>
+      <button type='button' onClick={() => navigate('/')}>
         Go back
       </button>
     </Card>

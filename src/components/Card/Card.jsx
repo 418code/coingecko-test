@@ -1,8 +1,9 @@
 import React from 'react';
 
-function Card({ exchange, children }) {
+function Card({ exchange, children, onClick }) {
   return (
-    <div className='Card body__element'>
+    // eslint-disable-next-line
+    <div className='Card body__element' onClick={onClick}>
       <h2 className='Card__name'>{exchange.name}</h2>
       {children}
     </div>

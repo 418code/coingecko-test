@@ -14,8 +14,14 @@ const infoHuman = {
   country: 'Country',
 };
 
+const infoHumanMain = {
+  trust_score_rank: 'Trust rank',
+  url: 'URL',
+  country: 'Country',
+};
+
 const apiConfig = {
   baseUrl: 'https://api.coingecko.com/api/v3/',
   appJSONType: 'application/json',
 };
-export { apiConfig, socialLogos, infoHuman };
+export { apiConfig, socialLogos, infoHuman, infoHumanMain };

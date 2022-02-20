@@ -1,5 +1,5 @@
 .Card {
-  width: 95%;
+  width: 80%;
   background-color: #c0d8c0;
   border-radius: 20px;
   padding: 10px;
@@ -10,18 +10,19 @@
 }
 @media (min-width: 500px) {
   .Card {
-    width: 70%;
+    width: 60%;
   }
 }
 
 @media (min-width: 768px) {
   .Card {
     width: 50%;
+    align-items: start;
   }
 }
 
 @media (min-width: 1024px) {
   .Card {
-    width: 40%;
+    width: 33%;
   }
 }

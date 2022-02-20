@@ -1,3 +1,5 @@
 .Card__name {
   color: #dd4a4b;
+  margin: 0;
+  padding: 0 0 10px;
 }

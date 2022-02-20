@@ -1,0 +1,8 @@
+.Main__list {
+  list-style-type: none;
+  width: 100%;
+  gap: 30px;
+  padding: 10px;
+  margin: 0;
+  display: grid;
+}
