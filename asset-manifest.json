@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/coingecko-test/static/css/main.f361ffc7.css",
+    "main.js": "/coingecko-test/static/js/main.d24a216b.js",
+    "static/media/twitter.webp": "/coingecko-test/static/media/twitter.f0165ae1431ce71a1496.webp",
+    "static/media/reddit.webp": "/coingecko-test/static/media/reddit.297f25b0e43fd7810bc8.webp",
+    "static/media/fb.webp": "/coingecko-test/static/media/fb.cf215d76fed277722aef.webp",
+    "index.html": "/coingecko-test/index.html",
+    "main.f361ffc7.css.map": "/coingecko-test/static/css/main.f361ffc7.css.map",
+    "main.d24a216b.js.map": "/coingecko-test/static/js/main.d24a216b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f361ffc7.css",
+    "static/js/main.d24a216b.js"
+  ]
+}
