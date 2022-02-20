@@ -32,11 +32,11 @@ class Api {
 
   /**
    * Gets a single exchange information
-   * @param {String} exchangeName
+   * @param {String} exchangeId
    * @returns {Promise}
    */
-  getExchange(exchangeName) {
-    return this.fetchGet(`exchanges/${exchangeName}`);
+  getExchange(exchangeId) {
+    return this.fetchGet(`exchanges/${exchangeId}`);
   }
 }
 
