@@ -3,6 +3,7 @@ import { Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import api from '../../utils/api';
 import SingleCard from '../SingleCard/SingleCard';
 import Main from '../Main/Main';
+import { checkUrl } from '../../utils/utils';
 
 function App() {
   const [exchListData, setExchListData] = useState([]);
@@ -24,7 +25,15 @@ function App() {
     api
       .getExchange(exchId)
       .then((data) => {
-        setCurrExchData(data);
+        const dataCopy = data;
+        // basic url validation
+        if (!checkUrl(data.facebook_url)) {
+          dataCopy.facebook_url = '';
+        }
+        if (!checkUrl(data.reddit_url)) {
+          dataCopy.reddit_url = '';
+        }
+        setCurrExchData(dataCopy);
       })
       .catch((err) => {
         console.log(err);

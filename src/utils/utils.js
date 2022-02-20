@@ -24,4 +24,12 @@ const apiConfig = {
   baseUrl: 'https://api.coingecko.com/api/v3/',
   appJSONType: 'application/json',
 };
-export { apiConfig, socialLogos, infoHuman, infoHumanMain };
+
+const checkUrl = (url) => {
+  const expr =
+    /[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&//=]*)?/gi;
+  const urlRegex = new RegExp(expr);
+  return url.match(urlRegex);
+};
+
+export { apiConfig, socialLogos, infoHuman, infoHumanMain, checkUrl };
